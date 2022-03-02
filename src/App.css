@@ -1,3 +1,4 @@
+/* react css */
 .App {
   text-align: center;
 }
@@ -26,6 +27,72 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* custom css */
+header {
+  background-image: url('../src/assets/images/header.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center
+}
+
+h1 {
+  font-family: 'Birthstone Bounce', cursive;
+  font-size: xxx-large;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-title {
+  color: #A0C5ED;
+  font-size: xx-large;
+  text-shadow: 2px 1px black;
+}
+
+nav {
+  background-color: #D3C8E5;
+  padding: 5px;
+}
+
+nav a {
+  display: inline-block;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  width: 40%;
+  padding: 3px;
+  margin: 5px;
+}
+
+main {
+  margin: 0 30px;
+}
+
+.portrait-img {
+  text-align: center;
+}
+
+.portrait-img img {
+  height: 200px;
+}
+
+.about-section p {
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #A0C5ED;
+}
+
+.footerIcon {
+  height: 30px;
+  padding: 5px;
 }
 
 @keyframes App-logo-spin {
