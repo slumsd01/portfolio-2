@@ -1,16 +1,25 @@
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import About from './components/About';
 
+import About from './components/About';
+import Project from './components/Project';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <Header></Header>
+      <header>
+        <div>
+          <h1>Sarah Lumsden</h1>
+          <Navigation></Navigation>
+        </div>
+      </header>
+
       <main>
+        <Project></Project>
         <About></About>
       </main>
+
       <Footer></Footer>
     </div>
   );
