@@ -16,8 +16,8 @@ function App() {
       </header>
 
       <main>
-        <Project></Project>
         <About></About>
+        <Project></Project>
       </main>
 
       <Footer></Footer>

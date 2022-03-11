@@ -1,13 +1,125 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* custom css */
+header {
+    background-image: url('../src/assets/images/header.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center
+}
+
+h1 {
+    font-family: 'Birthstone Bounce', cursive;
+    font-size: 75px;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-title {
+    color: #A0C5ED;
+    font-size: 55px;
+    text-shadow: 2px 1px black;
+}
+
+nav {
+    background-color: #D3C8E5;
+    padding: 5px;
+}
+
+nav a {
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: 40%;
+    padding: 3px;
+    margin: 5px;
+}
+
+nav a:hover {
+    background-color:#A0C5ED
+}
+
+main {
+    margin: 0 30px;
+}
+
+.portrait-img {
+    text-align: center;
+}
+
+.portrait-img img {
+    height: 200px;
+}
+
+.about-section p {
+    text-align: justify;
+}
+
+.projects-section {
+    text-align: center;
+}
+
+.project-container {
+    border: 2px solid gray;
+    margin: 30px auto;
+    width: 400px;
+    padding: 0 0 15px 0;
+}
+
+.project-screenshot {
+    width: 400px;
+    border-bottom: 2px solid gray;
+}
+
+a {
+    color: purple;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+.faded-text {
+    opacity: 0.7;
+}
+
+.project-icon {
+    width: 25px;
+    opacity: 0.7;
+    margin: 0 5px;
+}
+
+.project-icon:hover {
+    opacity: 1.0
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #A0C5ED;
+}
+
+.footerIcon {
+    width: 30px;
+    opacity: 0.7;
+    margin: 5px;
+}
+
+.footerIcon:hover {
+    opacity: 1.0
 }
