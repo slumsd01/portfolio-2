@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import githubIcon from '../../assets/images/github-icon.png'
-import linkIcon from '../../assets/images/link-icon.png'
-
 
 function Project() {
     const [projects] = useState([
