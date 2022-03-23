@@ -1,5 +1,9 @@
 import React, { useState } from "react";
+<<<<<<< Updated upstream
 import githubIcon from '../../assets/images/github-icon.png'
+=======
+// import photo from "../../assets/images/projects/budget-tracker.PNG"
+>>>>>>> Stashed changes
 
 function Project() {
     const [projects] = useState([
@@ -66,23 +70,36 @@ function Project() {
         },
         {
             name: "Sit + Stay",
+<<<<<<< Updated upstream
             type: "Full-Stack Project",
             img: require(`../../assets/images/projects/sit-stay.PNG`),
             github: "https://github.com/slumsd01/fuzzy-octo-doodle",
             deployed: "https://sit-stay-project-2.herokuapp.com/"
+=======
+            type: "Full-Stack Project"
+        },
+        {
+            name: "Regex Tutorial",
+            type: "Computer Science Challenge"
+>>>>>>> Stashed changes
         },
         {
             name: "Budget Tracker",
             type: "PWA Challenge",
+<<<<<<< Updated upstream
             img: require(`../../assets/images/projects/budget-tracker.PNG`),
             github: "https://github.com/slumsd01/budget-tracker",
             deployed: "https://evening-refuge-49012.herokuapp.com/"
+=======
+            imageUrl: "../../assets/images/projects/budget-tracker.PNG"
+>>>>>>> Stashed changes
         }
     ])
 
     return (
         <section className="projects-section">
             <h1 className="section-title">Projects</h1>
+<<<<<<< Updated upstream
             {projects.reverse().map((projects) => (
                 <div className="project-container">
                     <img className="project-screenshot" src={projects.img} />
@@ -91,6 +108,17 @@ function Project() {
                     <a href={projects.github}><img className="project-icon" src={githubIcon} /></a>                    
                 </div>
             ))}
+=======
+            <div>
+                {projects.reverse().map((projects) => (
+                    <div>
+                        <img src={projects.imageUrl}/>
+                        <p key={projects.name}>{projects.name} <br/>
+                        <span key={projects.type}> {projects.type}</span></p>
+                    </div>
+                ))}
+            </div>
+>>>>>>> Stashed changes
         </section>
     )
 }
