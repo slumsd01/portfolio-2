@@ -38,10 +38,12 @@ h1 {
 nav {
     background-color: #D3C8E5;
     padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 nav a {
-    display: inline-block;
     background-color: white;
     text-decoration: none;
     color: black;
@@ -55,7 +57,7 @@ nav a:hover {
 }
 
 main {
-    margin: 0 30px;
+    margin: 0px 30px 30px;
 }
 
 .portrait-img {
@@ -106,6 +108,30 @@ a:hover {
 
 .project-icon:hover {
     opacity: 1.0
+}
+
+.resume-download {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.resume-download p {
+    margin: 4px 10px;
+}
+
+.download-icon {
+    height: 30px;
+}
+
+.resume-section h3 {
+    text-align: center;
+}
+
+.resume-section ul {
+    margin: auto;
+    width: 50%;
 }
 
 footer {
