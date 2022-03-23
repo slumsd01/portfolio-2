@@ -82,7 +82,6 @@ function Project() {
 
     return (
         <section className="projects-section">
-            <h1 className="section-title">Projects</h1>
             {projects.reverse().map((projects) => (
                 <div className="project-container">
                     <img className="project-screenshot" src={projects.img} />

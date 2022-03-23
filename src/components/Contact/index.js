@@ -9,19 +9,19 @@ function Contact() {
             <h1 className="section-title">Contact</h1>
             <div className="contact-container">
                 <div className="contact-method">
-                <a href="#">
+                <a href="https://github.com/slumsd01" target="_blank">
                     <img src={githubIcon} />
                     <p>GitHub</p>
                 </a>
             </div>
             <div className="contact-method">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/sarah-lumsden-03a58760/" target="_blank">
                     <img src={linkedinIcon} />
                     <p>LinkedIn</p>
                 </a>
             </div>
             <div className="contact-method">
-                <a href="#">
+                <a href="mailto:sarah.a.lumsden@gmail.com" target="_blank">
                     <img src={emailIcon} />
                     <p>Email</p>
                 </a>

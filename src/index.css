@@ -134,7 +134,7 @@ a:hover {
 
 .resume-section ul {
     margin: auto;
-    width: 50%;
+    width: 41%;
 }
 
 .contact-container {
@@ -162,4 +162,21 @@ footer {
     padding: 5px;
     background-color: #A0C5ED;
     font-size: 12px;
+}
+
+/* media queries */
+@media only screen and (min-width: 890px) {
+    nav {
+        flex-wrap: nowrap;
+    }
+
+    .projects-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .resume-section ul {
+        width: 21%;
+    }
 }
