@@ -37,12 +37,15 @@ function Navigation(props) {
     }
 
     return (
-        <nav>
-            <a href='#about' onClick={() => showAbout()}>About</a>
-            <a href='#portfolio' onClick={() => showPortfolio()}>Portfolio</a>
-            <a href='#resume' onClick={() => showResume()}>Resume</a>
-            <a href='#contact' onClick={() => showContact()}>Contact</a>
+        <div className="align-items-center">
+        <nav className="row">
+            <a href='#about' className="col-5" onClick={() => showAbout()}>About</a>
+            <a href='#portfolio' className="col-5" onClick={() => showPortfolio()}>Portfolio</a>
+            <a href='#resume' className="col-5" onClick={() => showResume()}>Resume</a>
+            <a href='#contact' className="col-5" onClick={() => showContact()}>Contact</a>
         </nav>
+
+        </div>
     )
 }
 

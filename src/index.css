@@ -76,11 +76,15 @@ main {
     text-align: center;
 }
 
+.project-container h3, .project-container p {
+    margin: 5px;
+}
+
 .project-container {
     border: 2px solid gray;
     margin: 30px auto;
     width: 400px;
-    padding: 0 0 15px 0;
+    padding: 0 0 5px 0;
 }
 
 .project-screenshot {
@@ -100,13 +104,12 @@ a:hover {
     opacity: 0.7;
 }
 
-.project-icon {
+.project-icon, .download-icon {
     width: 25px;
     opacity: 0.7;
-    margin: 0 5px;
 }
 
-.project-icon:hover {
+.project-icon:hover, .download-icon:hover {
     opacity: 1.0
 }
 
@@ -118,11 +121,11 @@ a:hover {
 }
 
 .resume-download p {
-    margin: 4px 10px;
+    margin: 1px 10px;
 }
 
 .download-icon {
-    height: 30px;
+    height: 25px;
 }
 
 .resume-section h3 {
@@ -134,18 +137,29 @@ a:hover {
     width: 50%;
 }
 
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.contact-method img {
+    width: 50px;
+    opacity: 0.7;
+}
+
+.contact-method img:hover {
+    opacity: 1.0;
+}
+
+.contact-method p {
+    margin: 0 0;
+    font-weight: bold;
+}
+
 footer {
     text-align: center;
     padding: 5px;
     background-color: #A0C5ED;
-}
-
-.footerIcon {
-    width: 30px;
-    opacity: 0.7;
-    margin: 5px;
-}
-
-.footerIcon:hover {
-    opacity: 1.0
+    font-size: 12px;
 }
